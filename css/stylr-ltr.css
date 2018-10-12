@@ -1,0 +1,18 @@
+.container td {
+	text-align: left;
+	padding-right: 32px;
+	-webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	-moz-box-shadow: 0 2px 2px -2px #0E1119;
+	box-shadow: 0 2px 2px -2px #0E1119;
+}
+.container th h1 {
+	text-align: left;
+	position: static;
+
+}
+.navbar .language a {
+    margin-right: 32px;
+}
+.navbar img {
+    margin-left: 33px;
+}

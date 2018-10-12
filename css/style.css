@@ -15,13 +15,13 @@ body {
 	font-family: 'Cairo', sans-serif;
 	line-height: 1.42em;
 	color: #A7A1AE;
-	background-image: linear-gradient(#1F2739, #323c50);
+	background-color: #f9f7f7
 }
 
 /*stary navbar*/
 .navbar {
 	width: 100%;
-	background-color: #000c21;
+	background-color: #2978b2;
 }
 
 .navbar img {
@@ -30,7 +30,20 @@ body {
 	padding: 7px;
 }
 
+.navbar .language a {
+    text-decoration: none;
+    color: #444;
+    margin-left: 32px;
+    font-weight: bold;
+    position: relative;
+    top: 8px;
+    transition: all ease-in-out .3s;
+}
+.navbar .language a:hover {
+	color: #212121
+}
 /*end navbar*/
+
 h1 {
 	font-size: 3em;
 	font-weight: 300;
@@ -72,7 +85,7 @@ table {
 	font-weight: bold;
 	font-size: 1em;
 	text-align: left;
-	color: #185875;
+	color: #363535;
 	text-align: right;
 	position: relative;
 	right: 36px;
@@ -115,7 +128,7 @@ table {
 }
 
 .container th {
-	background-color: #1F2739;
+	background-color: #2978B2;
 }
 
 .container td:first-child {
@@ -149,7 +162,9 @@ td a {
 	margin-top: 65px;
 	margin-bottom: 34px;
 	font-size: 41px;
+	color: #444;
 }
+
 
 @media (max-width: 800px) {
 
@@ -157,6 +172,10 @@ td a {
 	.container th:nth-child(4) {
 		display: none;
 	}
+}
+
+.header {
+	background-image: url(/img/background.jpg);
 }
 
 /*start copy right*/
